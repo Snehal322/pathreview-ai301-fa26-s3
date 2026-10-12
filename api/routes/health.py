@@ -1,8 +1,8 @@
 from datetime import datetime
-from sqlalchemy import text
 
 import structlog
 from fastapi import APIRouter, Depends, HTTPException, status
+from sqlalchemy import text
 
 from core.database import get_db
 
